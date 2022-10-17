@@ -4,8 +4,8 @@ steps:
   - gcloud
   - functions
   - deploy
-  - $FUNCTION_NAME
-  - --region=$FUNCTION_REGION
+  - ${_FUNCTION_NAME}
+  - --region=${_REGION}
   - --source=.
   - --trigger-http
-  - --runtime=python310
+  - --runtime=${_FUNCTION_RUNTIME}
