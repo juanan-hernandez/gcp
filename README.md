@@ -1,2 +1,4 @@
 # gcp
-Google Cloud Platform
+Google Cloud Platform Essentials
+
+
